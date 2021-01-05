@@ -7,6 +7,9 @@ section{
     width: 1440px;
     background-color:white;
     margin: 0 auto;
+}
+.head{
+    
     height: 128px;
     
 }
@@ -28,9 +31,42 @@ section{
     top: 37px;
 
 }
-#menu nav{
+.half-width{
+        width: 40%;
+        float: left;
+        margin-left: 5%;
+        padding-left: 2%;
+}
+img{
+    width: 80%;
+}
+h1{
+    margin: 84px 0 0 0;
+    font-family: Bebas Neue;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+p{
+    margin: 0 0 38px 0;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.banner{
+    height: 483px;
     
 }
-#menu{
-    
+
+.link-button{
+    text-decoration: none;
+    padding:30px 85px;
+    background-color: turquoise;
 }
