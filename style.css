@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;  
+    background-color: #E5E5E5;;
+}
+section{
+    width: 1440px;
+    background-color:white;
+    margin: 0 auto;
+    height: 128px;
+    
+}
+#menu nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+#menu nav ul li {
+    list-style-type: none;
+    float: left;
+    margin: 5px 17px;
+}
+#menu nav ul{
+    
+    position: absolute;
+    height: 24px;
+    width: 319px;
+    left: 979px;
+    top: 37px;
+
+}
+#menu nav{
+    
+}
+#menu{
+    
+}
