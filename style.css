@@ -126,8 +126,8 @@ h2{
 }
 #footer{
     position: relative;
-    background-color: teal;
-    height: 645px;
+    background-color: white;
+    height: 436px;
 }
 /*footer*/
 .footer-pic{
@@ -192,4 +192,36 @@ h3{
     text-decoration: none;
     border-radius: 10px;
     color: white;
+}
+.bottom{
+    position: relative;
+    background-color: white;
+    height: 200px;
+}
+.bottom .social-icon{
+    position: absolute;
+    left: 42%;
+}
+.bottom h4{
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    margin: 0;
+    text-align: center;
+}
+.bottom h5{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    margin: 0;
+}
+.bottom .social-icon img{
+    width: 40px;
+    height: 40px;
+    margin: 15px;
 }
