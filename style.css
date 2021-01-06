@@ -125,8 +125,9 @@ h2{
     margin-right: 135px;
 }
 #footer{
-    
+    position: relative;
     background-color: teal;
+    height: 645px;
 }
 /*footer*/
 .footer-pic{
@@ -135,22 +136,60 @@ h2{
 }
 .footer-pic .img1 {
     position: absolute;
-    height: 479.5246276855469px;
-    width: 413.524658203125px;
+    top: 84px;
+    left: 171px;
+    height: 413px;
+    width: 489px;
     border-radius: 0px;
+ 
 
 }
 .footer-pic .img2 {
     position: absolute;
-    height: 479.5246276855469px;
-    width: 413.524658203125px;
+    height: 101px;
+    width: 101px;
     border-radius: 0px;
+    top: 278px;
+    left: 735px;
 
 }
 .footer-pic .img3 {
     position: absolute;
-    height: 479.5246276855469px;
-    width: 413.524658203125px;
+    height: 101px;
+    width: 101px;
     border-radius: 0px;
+    top: 42px;
+    left: 1013px;
 
+}
+h3{
+    margin: 0;
+    position: absolute;
+    top: 189px;
+    left: 341px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 64px;
+    color: white;
+    width: 500px;
+}
+.blue{
+    background-color: #5D69E9;
+    width: 906px;
+    height: 225px;
+    position: absolute;
+    margin: 101px 267px 95px 267px;
+    
+}
+.footer-button{
+    position: absolute;
+    top: 186px;
+    left: 972px;
+    padding: 20px 35px;
+    background-color: #FF8063; 
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
 }
