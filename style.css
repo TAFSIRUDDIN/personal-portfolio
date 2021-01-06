@@ -105,8 +105,9 @@ p{
 }
 
 #projects .projects img{
-    width: 372px;
+    width: 328px;
     height: 213px;
+    padding: 22px;
 }
 h2{
     margin: 0;
@@ -122,4 +123,34 @@ h2{
 }
 .three{
     margin-right: 135px;
+}
+#footer{
+    
+    background-color: teal;
+}
+/*footer*/
+.footer-pic{
+    height: 300px;
+    position: relative;
+}
+.footer-pic .img1 {
+    position: absolute;
+    height: 479.5246276855469px;
+    width: 413.524658203125px;
+    border-radius: 0px;
+
+}
+.footer-pic .img2 {
+    position: absolute;
+    height: 479.5246276855469px;
+    width: 413.524658203125px;
+    border-radius: 0px;
+
+}
+.footer-pic .img3 {
+    position: absolute;
+    height: 479.5246276855469px;
+    width: 413.524658203125px;
+    border-radius: 0px;
+
 }
