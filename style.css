@@ -247,3 +247,40 @@ h3{
 #projects h2{
     font-family: Bebas Neue;
 }
+.feedback{
+    width: 1440px;
+    height: 306px;
+    background-color: white;
+    background-image: url(images/footer-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.feedback h1{
+    margin: 0;
+    font-size: 40px;
+    text-align: center;
+    padding: 40px;
+
+}
+.feedback .clint-name{
+    margin: 0;
+    font-size: 20px;
+    text-align: center;
+    padding: 0px;
+    line-height: 1;
+}
+.feedback p{
+    text-align: center;
+    margin: 0;
+}
+.feedback .told{
+   
+    margin: 0;
+    width: 629px;
+}
+.toldc{
+    position: absolute;
+    left:418px;
+    padding: 24px;
+}
