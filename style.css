@@ -1,7 +1,11 @@
 body{
     margin: 0;
     padding: 0;  
-    background-color: #E5E5E5;;
+    background-color: #E5E5E5;
+    transition: 1s all ease;
+}
+span{
+    color: tomato;
 }
 section{
     width: 1440px;
@@ -16,11 +20,16 @@ section{
 #menu nav ul li a{
     text-decoration: none;
     color: black;
+    font-family: 'Roboto', sans-serif;
+
 }
 #menu nav ul li {
     list-style-type: none;
     float: left;
-    margin: 5px 17px;
+    margin: 5px 15px;
+}
+#menu nav ul li a:hover {
+    color:tomato;
 }
 #menu nav ul{
     
@@ -68,9 +77,14 @@ p{
 .link-button{
     text-decoration: none;
     padding:30px 85px;
-    background-color: turquoise;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    transition: 0.5s all ease;
+    color:blanchedalmond;
 }
-
+.link-button:hover{
+    background-image: linear-gradient(135deg, lightSalmon, tomato);
+    color: dimgrey;
+}
 #projects{
     height: 814px;
     background-color: #a0a0a0;;
@@ -167,7 +181,7 @@ h3{
     position: absolute;
     top: 189px;
     left: 341px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Bebas Neue;
     font-style: normal;
     font-weight: bold;
     font-size: 64px;
@@ -188,10 +202,15 @@ h3{
     top: 186px;
     left: 972px;
     padding: 20px 35px;
-    background-color: #FF8063; 
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
     text-decoration: none;
     border-radius: 10px;
     color: white;
+    font-family: Roboto;
+}
+.footer-button:hover{
+    background-image: linear-gradient(135deg, lightSalmon, tomato);
+    color: dimgrey;
 }
 .bottom{
     position: relative;
@@ -224,4 +243,7 @@ h3{
     width: 40px;
     height: 40px;
     margin: 15px;
+}
+#projects h2{
+    font-family: Bebas Neue;
 }
